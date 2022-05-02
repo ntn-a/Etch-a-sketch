@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
 body{
     margin: 0px;
-    background-color: #E23E57;
+    background-color: #522546;
+    font-family:'Roboto Condensed', Courier, monospace
 }
 
 .container{
@@ -13,15 +17,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 512px;
     height: auto;
     flex-wrap: wrap;
     border-style: solid;
 }
 
 .blank{
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
     background-color: white;
     transition: 300ms;
 }
@@ -34,7 +38,11 @@ body{
 .header{
     display: flex;
     user-select: none;
-    background-color: #522546;
+    color: #E23E57;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 50px;
 }
 
 .footer{
@@ -42,7 +50,8 @@ body{
     justify-content: center;
     width: 100%;
     user-select: none;
-    background-color: #522546;
+    background-color: #E23E57;
     position: absolute;
     bottom: 0px;
+    font-size: 30px;
 }

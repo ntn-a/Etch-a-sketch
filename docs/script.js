@@ -1,6 +1,6 @@
 let loadGrid = (num) =>{
     let container = document.querySelector('.grid');
-    for (let i = 0; i < num*(num+1); i++){
+    for (let i = 0; i < num*num; i++){
         let box = document.createElement('div');
         box.classList.add('blank');
         container.appendChild(box);
