@@ -1,9 +1,10 @@
 # Etch-a-sketch
 Etch-a-sketch-alike from the Odin Project
+
+https://ntn-a.github.io/Etch-a-sketch/
 ## Objective
 Use HTML/CSS/JS to create a application to allow a person to draw on the screen with their mouse. 
 
-https://ntn-a.github.io/Etch-a-sketch/
 ## Process
 After completing the Rock Paper Scissors project, I went ahead and started the next project, which was to implement a Etch-a-sketch/Sketchpad webpage.
 
